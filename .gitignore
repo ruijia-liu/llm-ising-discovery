@@ -1,0 +1,34 @@
+# Local environments and editor state
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.test-tmp/
+.test-tmp-*/
+
+# Credentials and machine configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Models, training caches, generated curricula and run artifacts
+models/
+data/
+results/
+output/
+.training-cache/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.npz
+*.npy
+*.log
+*.part
+*.zip

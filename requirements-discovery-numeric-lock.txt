@@ -1,0 +1,3 @@
+# Minimal, independently installed numerical laboratory/evaluation environment.
+# Python 3.12.14 was used for the recorded Windows reproduction.
+numpy==2.3.5
